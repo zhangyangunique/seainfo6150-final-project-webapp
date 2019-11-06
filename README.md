@@ -6,15 +6,8 @@ Link to final project assignment: https://github.com/aprilbingham-neu/seainfo615
 
 # Github instructions
 
-## Team repos
-* Team 1: https://github.com/SEAINFO6150/seainfo6150-final-project-team-1
-* Team 2: https://github.com/SEAINFO6150/seainfo6150-final-project-team-2
-* Team 3: https://github.com/SEAINFO6150/seainfo6150-final-project-team-3
-* Team 4: https://github.com/SEAINFO6150/seainfo6150-final-project-team-4
-* Team 5: https://github.com/SEAINFO6550/seainfo6150-final-project-team-5
-* Team 6: https://github.com/SEAINFO6150/seainfo6150-final-project-team-6
-* Team 7: https://github.com/SEAINFO6150/seainfo6150-final-project-team-7
-* Team 8: https://github.com/SEAINFO6150/seainfo6150-final-project-team-8
+## Team repo
+https://github.com/SEAINFO6150/seainfo6150-final-project-team-1
 
 ## Forking and cloning repo and adding upstream
 1. Go to the team git repo for your team from above
@@ -25,7 +18,8 @@ Link to final project assignment: https://github.com/aprilbingham-neu/seainfo615
 6. Open command line/terminal window and use these commands in a directory where you have admin permissions
 ```
 git clone [copied link]
-git remote add upstream [url to your team repo from above]
+cd seainfo6150-final-project-team-1
+git remote add upstream https://github.com/SEAINFO6150/seainfo6150-final-project-team-1
 ```
 
 ## Pulling latest changes from team repo
@@ -44,7 +38,7 @@ git push origin master
 **You should make a habit of pulling from the team repo often in order to get the latest changes from your teammates. Failure to pull increases the chances of creating merge conflicts and code collisions.**
 
 ## Pushing your changes directly to team repo
-1. Open command line and use this commands inside your final project directory
+1. Open command line and use this command inside your final project directory
 ```
 git push upstream master
 ```
