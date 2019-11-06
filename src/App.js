@@ -7,6 +7,13 @@ import Bar from "./Bar/Bar.jsx";
 import Baz from "./Baz/Baz.jsx";
 import Error from "./Error/Error.jsx";
 
+const externalContent = {
+  id: "article-1",
+  title: "An Article",
+  author: "April Bingham",
+  text: "Some text in the article"
+};
+
 function App() {
   return (
     <Router>
@@ -20,7 +27,7 @@ function App() {
               <Link to="/foo">Foo</Link>
             </li>
             <li>
-              <Link to="/bar">Bar</Link>
+              <Link to="/bar/hats/sombrero">Bar</Link>
             </li>
             <li>
               <Link to="/baz">Baz</Link>
@@ -33,8 +40,21 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/foo" exact component={Foo} />
-        <Route path="/bar" exact component={Bar} />
-        <Route path="/baz" exact component={Baz} />
+        <Route
+          path="/bar/:categoryId/:productId"
+          exact
+          render={({ match }) => (
+            <Bar
+              categoryId={match.params.categoryId}
+              productId={match.params.productId}
+            />
+          )}
+        />
+        <Route
+          path="/baz"
+          exact
+          render={() => <Baz content={externalContent} />}
+        />
         <Route component={Error} />
       </Switch>
     </Router>

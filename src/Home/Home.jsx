@@ -5,6 +5,7 @@ const Home = () => {
     return (
         <div>
             The home page
+            <img src="/images/treefrog.jpg" alt="tree frog" />
             <Form />
         </div>
     )
