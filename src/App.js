@@ -7,6 +7,8 @@ import Bar from "./Bar/Bar.jsx";
 import Baz from "./Baz/Baz.jsx";
 import Error from "./Error/Error.jsx";
 
+// here is some external content. look at the /baz route below
+// to see how this content is passed down to the components via props
 const externalContent = {
   id: "article-1",
   title: "An Article",
@@ -20,6 +22,7 @@ function App() {
       <header>
         <nav>
           <ul>
+            {/* these links should show you how to connect up a link to a specific route */}
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -40,10 +43,13 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/foo" exact component={Foo} />
+        {/* passing parameters via a route path */}
         <Route
           path="/bar/:categoryId/:productId"
           exact
           render={({ match }) => (
+            // getting the parameters from the url and passing
+            // down to the component as props
             <Bar
               categoryId={match.params.categoryId}
               productId={match.params.productId}
