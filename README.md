@@ -1,6 +1,6 @@
 # SEA INFO-6150 Final Project
 
-Link to final project assignment: https://github.com/aprilbingham-neu/seainfo6150/blob/master/assignments/final-project.md
+Link to final project assignment: https://northeastern.instructure.com/courses/23067/assignments/23113
 
 <hr>
 
@@ -29,6 +29,23 @@ git add .
 git commit -m “[commit name]”
 git push origin master
 ```
+
+<hr>
+
+# Validator bookmarklet
+
+Install this bookmarklet
+
+Make a new bookmark in your browser (right-click on the [bookmarks bar](https://support.google.com/chrome/answer/95745?hl=en) and click `Add Page...`)
+
+- For the "Name" you might put "Validate HTML".
+- Copy the code block below, paste this into the "Location" of a new bookmark.
+
+```
+javascript:void%20function(){javascript:(async%20function(){const%20a=document.querySelector(%22html%22).cloneNode(!0),b=document.createElement(%22div%22);b.appendChild(a);const%20c=`%3C!DOCTYPE%20html%3E${b.innerHTML}`.replace(/style%20type=\%22text\/css\%22/g,%22style%22),d=await%20fetch(`http://localhost:3000/nu/%23text-area`,{method:%22POST%22,cache:%22no-cache%22,mode:%22cors%22,headers:{%22Content-Type%22:%22text/html;%20charset=UTF-8%22,%22User-Agent%22:navigator.userAgent},referrerPolicy:%22no-referrer%22,body:c}),e=await%20d.text(),f=window.open(%22about:blank%22,%22%22,%22width=700,height=500%22);let%20g=e.replace(%22style.css%22,%22https://validator.w3.org/nu/style.css%22);g=g.replace(/\%3Cform(.*)form\%3E/g,%22%22),f.document.write(g)})()}();
+```
+
+When you click the bookmark while viewing a page in the web app, a window will be opened that will validate your HTML with W3C Validator (http://validator.w3.org).
 
 <hr>
 
