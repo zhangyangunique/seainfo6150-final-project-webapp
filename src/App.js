@@ -13,12 +13,12 @@ const externalContent = {
   id: "article-1",
   title: "An Article",
   author: "April Bingham",
-  text: "Some text in the article"
+  text: "Some text in the article",
 };
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename="/seainfo6150-final-project-webapp">
       <header>
         <nav>
           <ul>
