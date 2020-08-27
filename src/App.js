@@ -18,7 +18,7 @@ const externalContent = {
 
 function App() {
   return (
-    <Router basename="/seainfo6150-final-project-webapp">
+    <Router>
       <header>
         <nav>
           <ul>
