@@ -1,5 +1,6 @@
 {
   "name": "seainfo6150-webapp",
+  "homepage": "http://aprilbingham-neu.github.io/seainfo6150-final-project-webapp",
   "version": "0.1.0",
   "private": true,
   "proxy": "https://validator.w3.org/",
@@ -10,13 +11,16 @@
     "react-scripts": "3.0.0"
   },
   "devDependencies": {
-    "@testing-library/react": "10.4.5"
+    "@testing-library/react": "10.4.5",
+    "gh-pages": "3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
