@@ -18,7 +18,7 @@ const externalContent = {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <header>
         <nav>
           <ul>
