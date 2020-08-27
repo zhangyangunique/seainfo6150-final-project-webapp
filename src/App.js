@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Switch, Route, Link } from "react-router-dom";
 
 import Home from "./Home/Home.jsx";
 import Foo from "./Foo/Foo.jsx";
@@ -18,7 +18,7 @@ const externalContent = {
 
 function App() {
   return (
-    <Router>
+    <>
       <header>
         <nav>
           <ul>
@@ -63,7 +63,7 @@ function App() {
         />
         <Route component={Error} />
       </Switch>
-    </Router>
+    </>
   );
 }
 
