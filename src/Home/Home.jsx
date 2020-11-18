@@ -6,6 +6,7 @@ const Home = () => {
     return (
         <div>
             The home page
+            <h1>I changed this homepage</h1>
             <img src={treefrog} alt="tree frog" />
             <Form />
         </div>
