@@ -1,0 +1,54 @@
+header {
+	display: flex;
+	background-color: black;
+	margin: 0;
+}
+
+nav {
+	margin: 0 auto;
+}
+
+nav li {
+	float: left;
+	width: 120px;
+	margin: 0 10px;
+	list-style: none;
+}
+
+nav a {
+	text-decoration: none;
+	display: block;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 30px;
+	color: rgb(245, 240, 240);
+	text-align: center;
+	line-height: 60px;
+}
+
+nav a:hover {
+	background: rgb(48, 45, 45);
+}
+
+.dropdown {
+	width: 100%;
+	margin: 0 auto;
+	float: left;
+	text-align: center;
+}
+
+.dropdownContent {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	background-color: black;
+}
+
+.dropdownContent li {
+	float: none;
+	display: block;
+	text-align: center;
+}
+
+.dropdown:hover .dropdownContent {
+	display: block;
+}

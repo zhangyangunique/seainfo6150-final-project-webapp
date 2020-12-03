@@ -1,0 +1,16 @@
+.container {
+	margin: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.introduction {
+	height: 30rem;
+	background-image: url("../images/homeimage.jpg");
+	background-size: 100% 100%;
+}
+
+.introductionText {
+	bottom: 1rem;
+	padding: 10px;
+	font-size: 2rem;
+}
