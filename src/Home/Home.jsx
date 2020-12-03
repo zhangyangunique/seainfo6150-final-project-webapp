@@ -9,7 +9,7 @@ const Home = () => {
 	useEffect(() => {
 		const fetchData = async () => {
 			// performs a GET request
-			const response = await fetch("http://demo1390455.mockable.io/articles");
+			const response = await fetch("https://run.mocky.io/v3/211521a4-33bb-4927-a761-5414cd2f43cd");
 			const responseJson = await response.json();
 			setFetchedData(Object.values(responseJson));
 		};
