@@ -49,12 +49,13 @@ label {
 
 .submitButton {
 	font-size: 18px;
-	width: 60%;
+	width: 80%;
 	height: 40px;
 	margin: 0 auto;
 	text-align: center;
 	color: white;
 	background-color: #111111;
+	margin-bottom: 50px;
 }
 
 .registeredText {
@@ -67,4 +68,27 @@ h2 {
 	text-align: center;
 	font-size: 30px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gender label{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.country label {
+    margin-right: 32px;
+}
+
+.profession label {
+    margin-right: 10px;
+}
+
+.dropdownForm {
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

@@ -67,6 +67,61 @@ const SignupPage = () => {
 									id="password" />
 							</div>
 							<div className={styles.formGroup}>
+								<div className={styles.gender}>
+									<label>Gender:</label>
+									<label>
+										Male
+                                        <input
+											type="radio"
+											id="male"
+											name="gender"
+											checked="checked"
+											value="male"
+										/>
+									</label>
+									<label>
+										Female
+                                        <input
+											type="radio"
+											id="female"
+											name="gender"
+											checked="checked"
+											value="female"
+										/>
+									</label>
+									<label>
+										Other
+                                        <input
+											type="radio"
+											id="other"
+											name="gender"
+											checked="checked"
+											value="other"
+										/>
+									</label>
+								</div>
+							</div>
+							<div className={styles.formGroup}>
+								<div className={styles.country}>
+									<label for="country">Country:</label>
+									<select id="country" name="country" className={styles.dropdownForm}>
+										<option value="usa">United States</option>
+										<option value="canada">Canada</option>
+										<option value="other">Other</option>
+									</select>
+								</div>
+							</div>
+							<div className={styles.formGroup}>
+								<div className={styles.profession}>
+									<label for="profession">Profession:</label>
+									<select id="profession" name="profession" className={styles.dropdownForm}>
+										<option value="student">Student</option>
+										<option value="teacher">Teacher</option>
+										<option value="other">Other</option>
+									</select>
+								</div>
+							</div>
+							<div className={styles.formGroup}>
 								<input className={`${styles.formControl} ${styles.submitButton}`} type="submit" value="Submit" />
 							</div>
 						</form>
