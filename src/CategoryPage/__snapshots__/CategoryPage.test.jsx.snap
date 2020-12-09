@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryPage tests renders correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="mainbody"
+    >
+      <h2>
+        sport
+         Articles
+      </h2>
+      <div>
+        <ul
+          class="container"
+        >
+          <li
+            class="container"
+          >
+            <article
+              class="article"
+            >
+              <img
+                alt="The Statue of Liberty's torch heads to new museum"
+                class="image"
+                src="https://cdn.cnn.com/cnnnext/dam/assets/181122102925-statue-of-liberty-crown-super-169.jpg"
+              />
+              <div
+                class="wrapper"
+              >
+                <h2
+                  class="title"
+                >
+                  <a
+                    href="/articles/181122102925-statue-of-liberty-crown"
+                  >
+                    The Statue of Liberty's torch heads to new museum
+                  </a>
+                </h2>
+                <div
+                  class="text"
+                >
+                  <p>
+                    The Statue of Liberty's original torch is getting a new home
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li
+            class="container"
+          >
+            <article
+              class="article"
+            >
+              <img
+                alt="You can take a pie on a plane"
+                class="image"
+                src="https://cdn.cnn.com/cnnnext/dam/assets/170321135754-airport-security-line-file-super-169.jpg"
+              />
+              <div
+                class="wrapper"
+              >
+                <h2
+                  class="title"
+                >
+                  <a
+                    href="/articles/170321135754-airport-security-line"
+                  >
+                    You can take a pie on a plane
+                  </a>
+                </h2>
+                <div
+                  class="text"
+                >
+                  <p>
+                    Getting excited to eat your mother's roast turkey, your uncle's stuffing and your sister's famous green bean casserole?
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li
+            class="container"
+          >
+            <article
+              class="article"
+            >
+              <img
+                alt="Butter is back, just in time for the holidays"
+                class="image"
+                src="https://cdn.cnn.com/cnnnext/dam/assets/181119170125-ploughgate-creamery-butter-ball-super-169.jpg"
+              />
+              <div
+                class="wrapper"
+              >
+                <h2
+                  class="title"
+                >
+                  <a
+                    href="/articles/181119170125-ploughgate-creamery-butter-ball"
+                  >
+                    Butter is back, just in time for the holidays
+                  </a>
+                </h2>
+                <div
+                  class="text"
+                >
+                  <p>
+                    Amid the farm houses and barns dotting the Mad River Valley area of rural Vermont, five miles north of Sugarbush ski resort, Marisa Mauro is making butter.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li
+            class="container"
+          >
+            <article
+              class="article"
+            >
+              <img
+                alt="Boeing's 777X jetliner comes together "
+                class="image"
+                src="https://cdn.cnn.com/cnnnext/dam/assets/181121164246-boeing-777-9x-assembly-1-super-169.jpg"
+              />
+              <div
+                class="wrapper"
+              >
+                <h2
+                  class="title"
+                >
+                  <a
+                    href="/articles/181121164246-boeing-777-9x-assembly-1"
+                  >
+                    Boeing's 777X jetliner comes together 
+                  </a>
+                </h2>
+                <div
+                  class="text"
+                >
+                  <p>
+                    Travelers around the globe are one step closer to seeing a plane with its wings folded up being taxied to their gate.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li
+            class="container"
+          >
+            <article
+              class="article"
+            >
+              <img
+                alt="Leaning Tower of Pisa loses some of its tilt"
+                class="image"
+                src="https://cdn.cnn.com/cnnnext/dam/assets/170301162422-leaning-tower-tease-4-super-169.jpg"
+              />
+              <div
+                class="wrapper"
+              >
+                <h2
+                  class="title"
+                >
+                  <a
+                    href="/articles/170301162422-leaning-tower"
+                  >
+                    Leaning Tower of Pisa loses some of its tilt
+                  </a>
+                </h2>
+                <div
+                  class="text"
+                >
+                  <p>
+                    The Leaning Tower of Pisa has slowly started defying its name, losing four centimeters of its tilt over the past 17 years.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li
+            class="container"
+          >
+            <article
+              class="article"
+            >
+              <img
+                alt="Training India's next generation of female pilots"
+                class="image"
+                src="https://cdn.cnn.com/cnnnext/dam/assets/181118211616-banasthali-vidyapith-aviation-school-india---group-super-169.jpg"
+              />
+              <div
+                class="wrapper"
+              >
+                <h2
+                  class="title"
+                >
+                  <a
+                    href="/articles/181118211616-banasthali-vidyapith-aviation-school-india"
+                  >
+                    Training India's next generation of female pilots
+                  </a>
+                </h2>
+                <div
+                  class="text"
+                >
+                  <p>
+                    On a dusty, 3,600-foot-long airstrip in Rajasthan, India, a two-seater white Cessna 152 pivots into position. A few moments later, it's soaring over the empty desert into a cloudless blue sky.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

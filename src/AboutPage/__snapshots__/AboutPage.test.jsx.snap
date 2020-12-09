@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutPage tests renders correctly 1`] = `
+<div>
+  <div
+    class="aboutContainer"
+  >
+    <img
+      alt="about us"
+      class="aboutImage"
+      src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1334&q=80"
+    />
+    <h1
+      class="aboutTitle"
+    >
+      About me
+    </h1>
+    <div
+      class="information"
+    >
+      <p>
+        Name: Yang Zhang
+      </p>
+      <address>
+        Email:
+        <a
+          href="mailto:zhang.yang2@northeastern.edu"
+        >
+           zhang.yang2@northeastern.edu
+        </a>
+        <br />
+      </address>
+      <p>
+        College: Northeastern University
+      </p>
+      <p>
+        Location: San Jose
+      </p>
+    </div>
+  </div>
+</div>
+`;

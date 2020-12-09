@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment tests renders correctly 1`] = `
+<div>
+  <div
+    class="comment"
+  >
+    <h2>
+      Feel free to leave a comment
+    </h2>
+    <form
+      class="commentForm"
+    >
+      <textarea
+        class="textarea"
+        name="commentText"
+      />
+      <input
+        class="submitButton"
+        type="submit"
+      />
+    </form>
+  </div>
+</div>
+`;

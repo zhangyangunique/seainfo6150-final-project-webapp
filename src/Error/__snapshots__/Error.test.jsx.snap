@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error tests renders correctly 1`] = `
+<div>
+  <div
+    class="errorContainer"
+  >
+    <h1>
+      PAGE NOT FOUND
+    </h1>
+    <h1>
+      404
+    </h1>
+    <p>
+      Out of nothing, something.
+    </p>
+    <a
+      href="/"
+    >
+      Home
+    </a>
+  </div>
+</div>
+`;

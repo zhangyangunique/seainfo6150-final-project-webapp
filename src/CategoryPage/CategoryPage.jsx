@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./CategoryPage.module.css";
+import PropTypes from "prop-types";
 import ArticleList from "../Article/ArticleList/ArticleList.jsx";
 import articlesData from "../data/articles.json"
 import { isEmpty } from "lodash";
@@ -15,6 +16,10 @@ const CategoryPage = (props) => {
 			</div>
 		</div>
 	)
+}
+
+CategoryPage.propTypes = {
+	categoryId: PropTypes.string.isRequired
 }
 
 export default CategoryPage;

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import PropTypes from "prop-types";
 import styles from "./ArticleDetailPage.module.css";
 import Comment from "./Comment/Comment.jsx";
 import { isEmpty } from "lodash";
@@ -45,5 +46,9 @@ const ArticleDetailPage = (props) => {
 		</div>
 	);
 };
+
+ArticleDetailPage.propTypes = {
+	slug: PropTypes.string.isRequired
+}
 
 export default ArticleDetailPage;
