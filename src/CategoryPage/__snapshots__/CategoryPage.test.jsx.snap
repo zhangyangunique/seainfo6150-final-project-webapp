@@ -23,9 +23,9 @@ exports[`CategoryPage tests renders correctly 1`] = `
               class="article"
             >
               <img
-                alt="The Statue of Liberty's torch heads to new museum"
+                alt="In Winning His Fourth NBA Title, LeBron James Makes an All-Time Statement"
                 class="image"
-                src="https://cdn.cnn.com/cnnnext/dam/assets/181122102925-statue-of-liberty-crown-super-169.jpg"
+                src="https://api.time.com/wp-content/uploads/2020/10/GettyImages-1279730544.jpg"
               />
               <div
                 class="wrapper"
@@ -34,16 +34,16 @@ exports[`CategoryPage tests renders correctly 1`] = `
                   class="title"
                 >
                   <a
-                    href="/articles/181122102925-statue-of-liberty-crown"
+                    href="/articles/181982122240-winningnba"
                   >
-                    The Statue of Liberty's torch heads to new museum
+                    In Winning His Fourth NBA Title, LeBron James Makes an All-Time Statement
                   </a>
                 </h2>
                 <div
                   class="text"
                 >
                   <p>
-                    The Statue of Liberty's original torch is getting a new home
+                    The legend wins his fourth title with his third different franchise.
                   </p>
                 </div>
               </div>
@@ -56,9 +56,9 @@ exports[`CategoryPage tests renders correctly 1`] = `
               class="article"
             >
               <img
-                alt="You can take a pie on a plane"
+                alt="'Undoubtedly' the Greatest: Why the World Is Mourning Soccer Legend Diego Maradona"
                 class="image"
-                src="https://cdn.cnn.com/cnnnext/dam/assets/170321135754-airport-security-line-file-super-169.jpg"
+                src="https://api.time.com/wp-content/uploads/2020/11/AP20331376443033.jpg"
               />
               <div
                 class="wrapper"
@@ -67,16 +67,16 @@ exports[`CategoryPage tests renders correctly 1`] = `
                   class="title"
                 >
                   <a
-                    href="/articles/170321135754-airport-security-line"
+                    href="/articles/181112124440-sporpaper"
                   >
-                    You can take a pie on a plane
+                    'Undoubtedly' the Greatest: Why the World Is Mourning Soccer Legend Diego Maradona
                   </a>
                 </h2>
                 <div
                   class="text"
                 >
                   <p>
-                    Getting excited to eat your mother's roast turkey, your uncle's stuffing and your sister's famous green bean casserole?
+                    The Argentine soccer legend fought demons off the field, but was an artist on the pitch.
                   </p>
                 </div>
               </div>
@@ -89,9 +89,9 @@ exports[`CategoryPage tests renders correctly 1`] = `
               class="article"
             >
               <img
-                alt="Butter is back, just in time for the holidays"
+                alt="Cost to Delay Tokyo Olympics Is Estimated at $2 Billion"
                 class="image"
-                src="https://cdn.cnn.com/cnnnext/dam/assets/181119170125-ploughgate-creamery-butter-ball-super-169.jpg"
+                src="https://api.time.com/wp-content/uploads/2020/11/Olympic.jpg"
               />
               <div
                 class="wrapper"
@@ -100,16 +100,148 @@ exports[`CategoryPage tests renders correctly 1`] = `
                   class="title"
                 >
                   <a
-                    href="/articles/181119170125-ploughgate-creamery-butter-ball"
+                    href="/articles/181386122240-delaytokyoolympics"
                   >
-                    Butter is back, just in time for the holidays
+                    Cost to Delay Tokyo Olympics Is Estimated at $2 Billion
                   </a>
                 </h2>
                 <div
                   class="text"
                 >
                   <p>
-                    Amid the farm houses and barns dotting the Mad River Valley area of rural Vermont, five miles north of Sugarbush ski resort, Marisa Mauro is making butter.
+                    The official cost of putting on the Tokyo Olympics is $12.6 billion
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li
+            class="container"
+          >
+            <article
+              class="article"
+            >
+              <img
+                alt="College Football Feels All Too Normal During the Pandemic"
+                class="image"
+                src="https://api.time.com/wp-content/uploads/2020/10/arkansas-mississippi-college-football-fans-coronavirus.jpg"
+              />
+              <div
+                class="wrapper"
+              >
+                <h2
+                  class="title"
+                >
+                  <a
+                    href="/articles/181119572240-collegefootball"
+                  >
+                    College Football Feels All Too Normal During the Pandemic
+                  </a>
+                </h2>
+                <div
+                  class="text"
+                >
+                  <p>
+                    Universities are subjecting unpaid athletic workers to precisely the same health risks that are eliciting such outrage every day on network television and social media.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li
+            class="container"
+          >
+            <article
+              class="article"
+            >
+              <img
+                alt="Cliff-jumping off Ireland's Atlantic coast"
+                class="image"
+                src="https://cdn.cnn.com/cnnnext/dam/assets/181112122240-coasteering-3-super-169.jpg"
+              />
+              <div
+                class="wrapper"
+              >
+                <h2
+                  class="title"
+                >
+                  <a
+                    href="/articles/181112122240-coasteering"
+                  >
+                    Cliff-jumping off Ireland's Atlantic coast
+                  </a>
+                </h2>
+                <div
+                  class="text"
+                >
+                  <p>
+                    If someone told you to jump into an often tumultuous and always frigid North Atlantic Ocean from a 30-foot-high cliff in Ireland, would you do it?
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li
+            class="container"
+          >
+            <article
+              class="article"
+            >
+              <img
+                alt="31 beautiful reasons to visit England"
+                class="image"
+                src="https://cdn.cnn.com/cnnnext/dam/assets/160418164324-beautiful-england-29-bath2-super-169.jpg"
+              />
+              <div
+                class="wrapper"
+              >
+                <h2
+                  class="title"
+                >
+                  <a
+                    href="/articles/160418164324-beautiful-england"
+                  >
+                    31 beautiful reasons to visit England
+                  </a>
+                </h2>
+                <div
+                  class="text"
+                >
+                  <p>
+                    Discover England's most beautiful places. From the wild North York Moors to the ancient Roman sites in Bath, you be enchanted by scenes natural and man-made.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li
+            class="container"
+          >
+            <article
+              class="article"
+            >
+              <img
+                alt="The 32 most beautiful places to visit in Ireland"
+                class="image"
+                src="https://cdn.cnn.com/cnnnext/dam/assets/160315093137-tollymore-forest-super-169.jpg"
+              />
+              <div
+                class="wrapper"
+              >
+                <h2
+                  class="title"
+                >
+                  <a
+                    href="/articles/160315093137-beautiful-ireland"
+                  >
+                    The 32 most beautiful places to visit in Ireland
+                  </a>
+                </h2>
+                <div
+                  class="text"
+                >
+                  <p>
+                    From the dramatic Cliffs of Moher to regal Powerscourt Estate in Wicklow, escape to 32 of the most beautiful places to visit in Ireland.
                   </p>
                 </div>
               </div>
@@ -143,39 +275,6 @@ exports[`CategoryPage tests renders correctly 1`] = `
                 >
                   <p>
                     Travelers around the globe are one step closer to seeing a plane with its wings folded up being taxied to their gate.
-                  </p>
-                </div>
-              </div>
-            </article>
-          </li>
-          <li
-            class="container"
-          >
-            <article
-              class="article"
-            >
-              <img
-                alt="Leaning Tower of Pisa loses some of its tilt"
-                class="image"
-                src="https://cdn.cnn.com/cnnnext/dam/assets/170301162422-leaning-tower-tease-4-super-169.jpg"
-              />
-              <div
-                class="wrapper"
-              >
-                <h2
-                  class="title"
-                >
-                  <a
-                    href="/articles/170301162422-leaning-tower"
-                  >
-                    Leaning Tower of Pisa loses some of its tilt
-                  </a>
-                </h2>
-                <div
-                  class="text"
-                >
-                  <p>
-                    The Leaning Tower of Pisa has slowly started defying its name, losing four centimeters of its tilt over the past 17 years.
                   </p>
                 </div>
               </div>
