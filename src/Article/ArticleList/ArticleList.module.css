@@ -1,21 +1,27 @@
 .container {
-	list-style-type: none;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 18px;
-	display: grid;
-	gap: 10px;
-	grid-template-columns: auto;
-	margin-right: 30px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto;
+    margin-right: 30px;
 }
 
 @media screen and (min-width: 525px) {
-	.container {
-		grid-template-columns: repeat(2, 1fr);
-	}
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (min-width: 800px) {
-	.container {
-		grid-template-columns: repeat(3, 1fr);
-	}
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./AboutPage.module.css";
+import aboutData from "../data/aboutdata.json"
 
 const AboutPage = () => {
 	return (
@@ -11,14 +12,14 @@ const AboutPage = () => {
 			/>
 			<h1 className={styles.aboutTitle}>About me</h1>
 			<div className={styles.information}>
-				<p>Name: Yang Zhang</p>
+				<p>Name: {aboutData.name}</p>
 				<address>
 					Email:
-				<a href="mailto:zhang.yang2@northeastern.edu">&nbsp;zhang.yang2@northeastern.edu</a>
+				<a href={`mailto:${aboutData.email}`}>&nbsp;{aboutData.email}</a>
 					<br />
 				</address>
-				<p>College: Northeastern University</p>
-				<p>Location: San Jose</p>
+				<p>College: {aboutData.college}</p>
+				<p>Location: {aboutData.location}</p>
 			</div>
 		</div>
 	);

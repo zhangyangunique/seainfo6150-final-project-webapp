@@ -1,19 +1,20 @@
 .aboutContainer {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-size: 30px;
-	text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 100px;
 }
 
 .aboutImage {
-	width: 30%;
-	margin: 40px auto;
-	display: block;
+    width: 30%;
+    margin: 40px auto;
+    display: block;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .information {
-	text-align: center;
+    text-align: center;
 }

@@ -19,22 +19,26 @@ exports[`AboutPage tests renders correctly 1`] = `
       class="information"
     >
       <p>
-        Name: Yang Zhang
+        Name: 
+        Yang Zhang
       </p>
       <address>
         Email:
         <a
           href="mailto:zhang.yang2@northeastern.edu"
         >
-           zhang.yang2@northeastern.edu
+           
+          zhang.yang2@northeastern.edu
         </a>
         <br />
       </address>
       <p>
-        College: Northeastern University
+        College: 
+        Northeastern University
       </p>
       <p>
-        Location: San Jose
+        Location: 
+        San Jose
       </p>
     </div>
   </div>

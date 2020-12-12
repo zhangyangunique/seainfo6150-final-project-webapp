@@ -10,10 +10,73 @@
 
 .title {
 	text-align: center;
+	margin-bottom: 0;
+	font-size: 45px;
 }
 
 .image {
-	width: 70%;
+	width: 100%;
 	margin: 0 auto;
 	display: block;
+}
+
+.author {
+	display: inline;
+	margin-right: 50px;
+}
+
+.authorinfo {
+	text-align: center;
+	font-size: 26px;
+	color: grey;
+	margin: 10px;
+}
+
+.text {
+	font-size: 33px;
+}
+
+@media screen and (min-width: 525px) {
+	.image {
+		width: 90%;
+	}
+	.title {
+		font-size: 40px;
+	}
+	.authorinfo {
+		font-size: 25px;
+	}
+	.text {
+		font-size: 32px;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.image {
+		width: 80%;
+	}
+	.title {
+		font-size: 35px;
+	}
+	.authorinfo {
+		font-size: 20px;
+	}
+	.text {
+		font-size: 28px;
+	}
+}
+
+@media screen and (min-width: 1150px) {
+	.image {
+		width: 70%;
+	}
+	.title {
+		font-size: 40px;
+	}
+	.authorinfo {
+		font-size: 18px;
+	}
+	.text {
+		font-size: 25px;
+	}
 }

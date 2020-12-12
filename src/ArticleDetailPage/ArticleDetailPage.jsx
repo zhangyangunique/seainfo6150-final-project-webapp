@@ -36,6 +36,10 @@ const ArticleDetailPage = (props) => {
 					</div>
 					<div className={styles.wrapper}>
 						<h2 className={styles.title}>{fetchedArticle.title}</h2>
+						<div className={styles.authorinfo}>
+							<div className={styles.author}>{fetchedArticle.author}</div>
+							<time>{fetchedArticle.pubDate}</time>
+						</div>
 						<div className={styles.text}>
 							{fetchedArticle.text}
 						</div>
