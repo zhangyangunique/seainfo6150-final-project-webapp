@@ -10,7 +10,7 @@ const ArticleDetailPage = (props) => {
 	useEffect(() => {
 		const fetchData = async () => {
 			// performs a GET request
-			const response = await fetch("https://run.mocky.io/v3/4e5f4094-406d-47ae-a02d-32cba2ae7265");
+			const response = await fetch("https://run.mocky.io/v3/ad567970-3ec9-49e0-9750-2a7d9934c2b9");
 			const responseJson = await response.json();
 			const articles = Object.values(responseJson);
 
