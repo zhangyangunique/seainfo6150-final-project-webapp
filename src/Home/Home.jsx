@@ -9,7 +9,7 @@ const Home = () => {
 	useEffect(() => {
 		const fetchData = async () => {
 			// performs a GET request
-			const response = await fetch("https://run.mocky.io/v3/211521a4-33bb-4927-a761-5414cd2f43cd");
+			const response = await fetch("https://run.mocky.io/v3/4e5f4094-406d-47ae-a02d-32cba2ae7265");
 			const responseJson = await response.json();
 			setFetchedData(Object.values(responseJson));
 		};
